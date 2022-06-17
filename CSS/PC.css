@@ -1,0 +1,83 @@
+@media only screen and (min-width: 1020px){
+    html {
+        margin: 0 auto;
+        background-color: rgb(24, 24, 24);
+        font-family: 'Roboto', sans-serif;
+        min-width: 1020px;
+        max-width: 1920px;
+        
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .menu h2 {
+        height: 5em;
+        font-size: 40px;
+    }
+
+    .title__item {
+        font-size: 60px;
+    }
+
+    .foto {
+        width: 900px;
+        align-self: center;
+        
+    }
+
+    .foto__zadani {
+        margin-left: 1em;
+    }
+
+    .serie {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .menu {
+        justify-content: space-evenly;
+    }
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    figure {
+        margin: 0;
+        flex-grow: 1;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    .gallery__item {
+        display: block;
+        height: 300px;
+    }
+
+    .tvorba {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .tvorba__img {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    
+
+
+ }  
